@@ -1,0 +1,20 @@
+# Ignorar todo el entorno virtual
+myenv/*
+
+# Excepto las carpetas de proyectos que quieres subir
+!myenv/Datapath_TareaETL/
+!myenv/Readme.md
+#!myenv/Automatizaciones/
+
+# Ignorar librerías y scripts que no quieres subir
+myenv/Libs/
+myenv/Scripts/
+myenv/CACHEDIR.TAG/
+myenv/pyenv.cfg/
+APUNTES*
+myenv/pyenv.cfg/
+myenv/pyenv.cfg/
+Practicando_PY.ipynb
+# Archivos temporales de Python
+*.pyc
+__pycache__/
